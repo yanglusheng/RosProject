@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- App name -->
+<string name="app_name">车辆交互</string>
+
+<!-- Topic values -->
+<string name="joy_topic">/cmd_vel</string>
+<string name="camera_topic">/usb_cam/image_raw/compressed</string>
+<string name="laser_scan_topic">/scan</string>
+<string name="map_topic">/map</string>
+<string name="odometry_topic">/odom</string>
+<string name="gesture_topic">/base_footprint</string>
+<string name="pose_topic">/acml_pose</string>
+<string name="distance_topic">/salve</string>
+<string name="goal_topic">/move_base_simple/goal</string>
+
+<!-- Preference titles -->
+<string name="joy_pref_title">速度话题</string>
+<string name="laser_pref_title">激光话题</string>
+<string name="map_pref_title">地图话题</string>
+<string name="camera_pref_title">摄像头话题</string>
+<string name="gesture_pref_title">姿态话题</string>
+<string name="pose_pref_title">位置话题</string>
+<string name="odometry_pref_title">里程计话题</string>
+<string name="distance_pref_title">间距话题</string>
+<string name="goal_pref_title">目标点话题</string>
+
+<!-- Preference keys -->
+<string name="prefs_joystick_topic_edittext_key">prefs_joystick_topic_edittext</string>
+<string name="prefs_laserscan_topic_edittext_key">prefs_laserscan_topic_edittext</string>
+<string name="prefs_camera_topic_edittext_key">prefs_camera_topic_edittext</string>
+<string name="prefs_map_topic_edittext_key">prefs_map_topic_edittext</string>
+<string name="prefs_gesture_topic_edittext_key">prefs_gesture_topic_edittext</string>
+<string name="prefs_odometry_topic_edittext_key">prefs_odometry_topic_edittext</string>
+<string name="prefs_pose_topic_edittext_key">prefs_pose_topic_edittext</string>
+<string name="prefs_distance_topic_edittext_key">prefs_distance_topic_edittext</string>
+<string name="prefs_goal_topic_edittext_key">prefs_goal_topic_edittext</string>
+
+
+<!-- Robot chooser strings -->
+<string name="add_robot">添加机器人</string>
+<string name="edit_robot">编辑机器人</string>
+<string name="add_edit_robot">添加/编辑</string>
+<string name="robot_name_hint">机器人名称</string>
+<string name="chooser_uri_hint">主机URI</string>
+<string name="no_robots">No Robots. Add a new one!</string>
+
+<!-- Robot chooser titles -->
+<string-array name="chooser_titles">
+    <item>选择智能车</item>
+    <item>帮助</item>
+    <item>关于</item>
+</string-array>
+
+<!-- Master URI key -->
+<string name="master_uri_key">MASTER_URI</string>
+
+<!-- Button strings -->
+<string name="delete">删除</string>
+<string name="stop">停止</string>
+<string name="show_advanced_options">显示高级选项</string>
+<string name="ok">确认</string>
+<string name="cancel">取消</string>
+
+<!-- Drawer item titles -->
+<string-array name="feature_titles">
+    <item>机器人切换</item>
+    <item>概览</item>
+    <item>摄像头</item>
+    <item>激光雷达及地图</item>
+    <item>实时图表</item>
+</string-array>
+
+<!-- Drawer options -->
+<string name="drawer_open">Open Menu</string>
+<string name="drawer_close">Close Menu</string>
+
+<!-- UI strings -->
+<string name="percent_string">%1$d%%</string>
+<string name="speed_string">%1$5.2f m/s</string>
+<string name="turnrate_string">%1$5.2f \u00B0/s</string>
+<string name="pos_string">%1$5.2f m</string>
+
+<string name="control_mode">控制模式: </string>
+<string name="robot_name">机器人名称：</string>
+<string name="master_uri">主机 URI:</string>
+<string name="joystick_topic_prompt">运动指令话题:</string>
+<string name="camera_topic_prompt">摄像头话题:</string>
+<string name="laserscan_topic_prompt">激光数据话题:</string>
+<string name="map_topic_prompt">地图话题:</string>
+<string name="gesture_topic_prompt">姿态话题:</string>
+<string name="odometry_topic_prompt">里程计话题:</string>
+<string name="pose_topic_prompt">位置话题:</string>
+<string name="distance_topic_prompt">间距话题:</string>
+<string name="goal_topic_prompt">目标点话题:</string>
+<!-- Custom icon content descriptions -->
+<string name="wifi_strength_content_description">Shows WIFI signal strength</string>
+<string name="gps_icon_content_description">GPS icon</string>
+<string name="speedometer_icon_content_description">Speedometer icon</string>
+
+<!-- UI messages -->
+<string name="tilt_calibration_message">Tap the joystick to reset calibration</string>
+
+<!-- Motion plan names -->
+<string name="joystick_control">Joystick Control</string>
+<string name="motion_control">Tilt Control</string>
+<string name="button_control">Button Control</string>
+<string name="acc_control">Acc Control</string>
+
+<!-- Array of Motion plan names -->
+<string-array name="motion_plans">
+    <item>操纵杆</item>
+    <item>倾斜模式</item>
+    <item>按钮</item>
+    <item>直线加速</item>
+</string-array>
+
+
+<!-- Default Preference values -->
+<string name="noCamera">No Camera</string>
+
+</resources>

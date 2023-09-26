@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidSdk/platforms/android-25/data/res/layout/simple_spinner_dropdown_item.xml" value="0.4" />
+        <entry key="..\:/AndroidSdk/platforms/android-25/data/res/layout/simple_spinner_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/AndroidSdk/platforms/android-26/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1" />
+        <entry key="..\:/AndroidSdk/platforms/android-26/data/res/layout/simple_spinner_item.xml" value="0.1265625" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/background_splash.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/btn_selector.xml" value="0.2296875" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1421875" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.12395833333333334" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_button.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_down.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_left.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_ok.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_right.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_stop.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/drawable/shape_up.xml" value="0.26979166666666665" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout-land/fragment_overview.xml" value="0.21472663139329806" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout-land/main.xml" value="0.1" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout-large/fragment_hud.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout-normal/fragment_hud.xml" value="0.4" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/actionbar_dropdown_menu.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/dialog_add_robot.xml" value="0.4559505409582689" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_about.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_button_view.xml" value="0.536" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_camera_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_chart_view.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_help.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_hud.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_joystick_view.xml" value="0.2" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_lasercan_map.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_layout.xml" value="0.2578125" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_overview.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_vel.xml" value="0.14270833333333333" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/fragment_velocity_time.xml" value="0.4" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/main.xml" value="0.152" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/nav_drawer_menu_item.xml" value="0.264" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/pageone_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/pagethree_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/pagetwo_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/robot_chooser.xml" value="0.152" />
+        <entry key="..\:/android/RosProject/app/src/main/res/layout/robot_info_view.xml" value="0.4" />
+        <entry key="..\:/android/RosProject/app/src/main/res/menu/menu_control_app.xml" value="0.25364583333333335" />
+        <entry key="..\:/android/RosProject/app/src/main/res/menu/menu_robot_chooser.xml" value="0.2" />
+        <entry key="..\:/android/RosProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16770833333333332" />
+        <entry key="..\:/android/RosProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19270833333333334" />
+        <entry key="..\:/android/RosProject/app/src/main/res/xml/prefs.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

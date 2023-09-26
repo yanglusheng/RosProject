@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48sp"
+    android:background="@android:color/darker_gray"
+    android:alpha="0.65"
+    tools:context="com.example.rosproject.Fragments.HUDFragment">
+
+    <ImageView
+        android:id="@+id/hud_speedometer_icon"
+        android:src="@drawable/speedometer"
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/speedometer_icon_content_description"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/hud_speed_display"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/hud_speedometer_icon"
+        android:layout_toEndOf="@id/hud_speedometer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hud_speed"
+
+            android:paddingLeft="8sp"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/speed_string"/>
+
+        <TextView
+            android:id="@+id/hud_turnrate"
+            android:textSize="16sp"
+            android:paddingLeft="8sp"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/turnrate_string"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/hud_gps_icon"
+        android:src="@drawable/gps"
+        android:paddingTop="6sp"
+        android:paddingBottom="6sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/hud_speed_display"
+        android:layout_toEndOf="@id/hud_speed_display"
+        android:contentDescription="@string/gps_icon_content_description"/>
+
+    <LinearLayout
+        android:id="@+id/hud_gps_display"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/hud_gps_icon"
+        android:layout_toEndOf="@id/hud_gps_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hud_pos_x"
+
+            android:paddingLeft="8sp"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/hud_pos_y"
+            android:textSize="16sp"
+            android:paddingLeft="8sp"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/hud_wifi_strength"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/wifi_strength_content_description"
+        android:paddingTop="9sp"
+        android:paddingBottom="9sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/wifi_0" />
+
+</RelativeLayout>

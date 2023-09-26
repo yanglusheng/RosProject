@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="64sp"
+    android:orientation="horizontal"
+    android:background="@android:color/darker_gray"
+    android:alpha="0.65"
+    tools:context="com.example.rosproject.Fragments.HUDFragment">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+       <ImageView
+           android:id="@+id/hud_speedometer_icon"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:paddingBottom="4dp"
+           android:src="@drawable/speedometer" />
+
+        <LinearLayout
+            android:id="@+id/hud_speed_display"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/hud_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:text="@string/speed_string"/>
+
+            <TextView
+                android:id="@+id/hud_turnrate"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:text="@string/turnrate_string"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hud_gps_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="4dp"
+            android:src="@drawable/gps"/>
+
+        <LinearLayout
+            android:id="@+id/hud_gps_display"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/hud_pos_x"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="4dp"
+                android:textSize="16sp"
+                android:text="@string/pos_string"/>
+
+            <TextView
+                android:id="@+id/hud_pos_y"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:text="@string/pos_string"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

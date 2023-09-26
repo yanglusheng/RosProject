@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="match_parent"
+        android:textSize="10sp"
+        android:text="期望速度:" />
+
+    <EditText
+        android:id="@+id/velocity_number"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:hint="m/s"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="match_parent"
+        android:textSize="10sp"
+        android:text="加速时间:" />
+
+    <EditText
+        android:id="@+id/time_number"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:hint="s"/>
+
+    <Button
+        android:id="@+id/OK"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/shape_ok"/>
+
+    <Button
+        android:id="@+id/acc_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/shape_left" />
+
+    <Button
+        android:id="@+id/acc_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/shape_right" />
+
+    <Button
+        android:id="@+id/acc_stop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_stop" />
+
+</LinearLayout>

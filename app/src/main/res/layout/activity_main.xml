@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:alpha="8"
+        android:layout_marginTop="64sp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/dark_blue"
+        android:text="摄像头图像">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <org.ros.android.view.RosImageView
+            android:id="@+id/camera_view"
+            android:alpha="8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/noCameraTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/noCamera"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="8"
+        android:text="地  图"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"
+        android:gravity="center">
+    </TextView>
+
+    <FrameLayout
+        android:id="@+id/laser_scan_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

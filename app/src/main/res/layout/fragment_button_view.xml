@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_button_view"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_stop"/>
+
+    <Button
+        android:id="@+id/left_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@+id/stop_button"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_left"/>
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/stop_button"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_right"/>
+
+    <Button
+        android:id="@+id/up_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/stop_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_up"/>
+    <Button
+        android:id="@+id/down_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/stop_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_down"/>
+
+</RelativeLayout>
